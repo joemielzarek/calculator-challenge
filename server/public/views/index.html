@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Number Cruncher</title>
+    <link rel="stylesheet" href="../styles/stylesheet.css" />
+    <script src="../assets/vendor/jquery.min.js"></script>
+    <script src="../scripts/client.js"></script>
+  </head>
+  <body>
+    <form class='form-input-container'>
+      <header>
+        <h1>Number Cruncher<span class="reg-mark">&reg;</span></h1>
+        <p class="description">
+          Enter desired numbers. Select operator. Reveal solution.
+        </p>
+      </header>
+      <div class="number-inputs-container">
+        <input type="number" id="firstNum" name='firstInput' placeholder="Number One">
+        <input type="number" id="secondNum" name='secondInput' placeholder="Number Two">
+    </form>
+    <form>
+      <div class='operation-btns-container'>
+        <button data-operator='+' class="operator">+</button>
+        <button data-operator='-' class="operator">-</button>
+        <button data-operator='*' class="operator">x</button>
+        <button data-operator='/' class="operator">/</button>
+      </div>
+    </form>
+    <h3 class='equals-to-container'>
+    </h3>
+    <div class='clear-btn-container'>
+    <button class='clear-btn'>CLEAR</button>
+    </div>
+  </body>
+</html>
